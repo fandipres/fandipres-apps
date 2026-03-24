@@ -1,73 +1,149 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="id" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Syarat & Ketentuan - FanTech</title>
+    <meta name="description" content="Syarat dan Ketentuan penggunaan aplikasi Extra - Tracker Keuangan & Pertumbuhan Saldo oleh FanTech.">
+    <meta name="author" content="FanTech">
+    <title>Syarat & Ketentuan - Extra App</title>
     
-    <meta name="title" content="Syarat & Ketentuan - FanTech">
-    <meta name="description" content="Syarat dan ketentuan penggunaan aplikasi dan layanan web resmi buatan Fandi Presly Simamora (fantech).">
-    <meta name="keywords" content="syarat dan ketentuan, terms and conditions, fandipres, fantech, layanan aplikasi">
-    <meta name="author" content="Fandi Presly Simamora">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://apps.fandipres.my.id/terms.html">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%232563EB%22></rect><text x=%2250%%22 y=%2250%%22 font-family=%22Arial, sans-serif%22 font-size=%2260%22 font-weight=%22bold%22 fill=%22white%22 dominant-baseline=%22central%22 text-anchor=%22middle%22>X</text></svg>">
     
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://apps.fandipres.my.id/terms.html">
-    <meta property="og:title" content="Syarat & Ketentuan - FanTech">
-    <meta property="og:description" content="Syarat dan ketentuan penggunaan aplikasi dan layanan web resmi buatan Fandi Presly Simamora (fantech).">
-    <meta property="og:image" content="https://github.com/fandipres.png">
-
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://apps.fandipres.my.id/terms.html">
-    <meta property="twitter:title" content="Syarat & Ketentuan - FanTech">
-    <meta property="twitter:description" content="Syarat dan ketentuan penggunaan aplikasi dan layanan web resmi buatan Fandi Presly Simamora (fantech).">
-    <meta property="twitter:image" content="https://github.com/fandipres.png">
-
-    <link rel="icon" type="image/png" href="https://github.com/fandipres.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        'app-blue': '#2563EB',
+                        'app-black': '#09090B', 
+                        'app-bg-light': '#FAFAFA', 
+                        'app-bg-dark': '#09090B',
+                        'app-card-dark': '#18181B',
+                    },
+                    fontFamily: { sans: ['Inter', 'sans-serif'] },
+                }
+            }
+        }
+    </script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="../assets/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <noscript>
+        <style>
+            .fade-in, .fade-in-up { opacity: 1 !important; transform: none !important; }
+        </style>
+    </noscript>
 </head>
-<body>
+<body class="bg-app-bg-light text-slate-800 dark:bg-app-bg-dark dark:text-slate-200 antialiased transition-colors duration-300">
 
-    <div class="top-actions" style="left: 20px; right: auto;">
-        <a href="/" class="action-btn saas-panel" aria-label="Kembali ke Beranda" style="width: auto; padding: 0 16px; text-decoration: none; font-weight: 600;">
-            &larr; Beranda
-        </a>
-    </div>
-    <div class="top-actions">
-        <button id="theme-toggle" class="action-btn saas-panel" aria-label="Toggle Theme">🌙</button>
-    </div>
-
-    <div class="app-container" style="max-width: 800px; padding-top: 80px;">
-        <main class="saas-panel legal-content">
-            <h1>Syarat & Ketentuan</h1>
-            <p class="last-updated">Terakhir diperbarui: 24 Maret 2026</p>
+    <nav class="sticky top-0 z-50 bg-white/80 dark:bg-app-bg-dark/80 backdrop-blur-md border-b border-slate-200/50 dark:border-slate-800/50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="../" class="text-2xl font-extrabold tracking-tight text-slate-900 dark:text-white flex items-center gap-2 hover:opacity-80 transition">
+                Extra<span class="text-app-blue">.</span>
+            </a>
             
-            <p>Dengan mengunduh atau menggunakan aplikasi buatan kami, ketentuan ini akan berlaku secara otomatis untuk Anda. Anda tidak diizinkan untuk menyalin, memodifikasi aplikasi, atau mencoba mengekstrak kode sumber aplikasi dengan cara apa pun.</p>
-
-            <h2>1. Penggunaan Lisensi</h2>
-            <p>Kami memberikan Anda lisensi pribadi, non-eksklusif, dan tidak dapat dialihkan untuk menggunakan aplikasi pada perangkat Anda sesuai dengan persyaratan ini.</p>
-
-            <h2>2. Modifikasi dan Ketersediaan</h2>
-            <p>Kami berkomitmen untuk memastikan bahwa aplikasi kami bermanfaat dan seefisien mungkin. Karena alasan itu, kami berhak untuk melakukan perubahan pada aplikasi atau mengenakan biaya untuk layanannya, kapan saja dan untuk alasan apa pun. Kami akan menginformasikan jika terdapat layanan yang berbayar.</p>
-
-            <h2>3. Tanggung Jawab Pengguna</h2>
-            <p>Merupakan tanggung jawab Anda untuk menjaga keamanan perangkat seluler dan akses ke aplikasi. Kami sangat menyarankan agar Anda tidak melakukan *jailbreak* atau *root* pada perangkat Anda, karena hal tersebut dapat membuat perangkat rentan terhadap malware/virus dan membuat aplikasi kami tidak berfungsi dengan baik.</p>
-        </main>
-
-        <footer class="app-footer">
-            <div class="footer-legal-links">
-                <a href="/privacy-policy/" id="text-privacy">Kebijakan Privasi</a>
-                <a href="/terms-conditions/" id="text-terms">Syarat & Ketentuan</a>
-                <a href="/disclaimer/" id="text-disclaimer">Penyangkalan</a>
+            <div class="flex items-center space-x-4">
+                <a href="../" class="hidden sm:block text-sm font-semibold text-slate-500 hover:text-app-blue dark:text-slate-400 dark:hover:text-blue-400 transition">
+                    &larr; Kembali ke Beranda
+                </a>
+                <button id="themeToggle" class="p-2 rounded-full hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-500 dark:text-slate-400 transition" aria-label="Toggle Dark Mode">
+                    <svg id="themeIcon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path></svg>
+                </button>
             </div>
-            <p class="copyright-text">Copyright &copy; <span id="copyright-year"></span> - Fandi Presly Simamora</p>
-        </footer>
-    </div>
+        </div>
+    </nav>
+
+    <header class="pt-16 pb-10 bg-white dark:bg-[#050505] border-b border-slate-200 dark:border-slate-800/50">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <span class="text-app-blue dark:text-blue-500 font-semibold tracking-wider text-sm uppercase mb-2 block">Pembaruan Terakhir: Maret 2026</span>
+            <h1 class="text-3xl md:text-5xl font-extrabold tracking-tight text-slate-900 dark:text-white mb-4">Syarat & Ketentuan</h1>
+            <p class="text-lg text-slate-600 dark:text-slate-400">Harap baca dengan saksama sebelum menggunakan aplikasi Extra.</p>
+        </div>
+    </header>
+
+    <main class="py-12 pb-24">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <article class="prose prose-slate dark:prose-invert max-w-none">
+                <div class="bg-white dark:bg-app-card-dark p-8 md:p-12 rounded-3xl border border-slate-100 dark:border-slate-800 shadow-sm space-y-8 text-slate-700 dark:text-slate-300 leading-relaxed">
+                    
+                    <section>
+                        <h2 class="text-2xl font-bold text-slate-900 dark:text-white mb-4">1. Penerimaan Syarat</h2>
+                        <p>Dengan mengunduh, menginstal, atau menggunakan aplikasi Extra ("Aplikasi") yang dikembangkan oleh FanTech ("Kami"), Anda menyetujui untuk terikat oleh Syarat dan Ketentuan ini. Jika Anda tidak setuju dengan ketentuan ini, harap jangan menggunakan Aplikasi ini.</p>
+                    </section>
+
+                    <section>
+                        <h2 class="text-2xl font-bold text-slate-900 dark:text-white mb-4">2. Deskripsi Layanan</h2>
+                        <p>Extra adalah aplikasi pencatat keuangan pribadi dan pemantau aset investasi. Aplikasi ini berfungsi berdasarkan <strong>input data manual</strong> yang Anda masukkan (seperti input saldo terakhir dari dompet atau rekening). Extra <strong>tidak</strong> terhubung secara langsung ke institusi perbankan, dompet digital pihak ketiga, atau sistem keuangan eksternal mana pun untuk menarik data secara otomatis.</p>
+                    </section>
+
+                    <section>
+                        <h2 class="text-2xl font-bold text-slate-900 dark:text-white mb-4">3. Tanggung Jawab Pengguna</h2>
+                        <ul class="list-disc pl-5 space-y-2">
+                            <li><strong>Akurasi Data:</strong> Anda bertanggung jawab penuh atas keakuratan data saldo dan riwayat aktivitas yang Anda masukkan. Grafik tren pertumbuhan yang ditampilkan oleh sistem murni didasarkan pada data yang Anda berikan.</li>
+                            <li><strong>Keamanan Perangkat:</strong> Anda bertanggung bertanggung jawab untuk menjaga keamanan perangkat Anda dan akses ke dalam Aplikasi.</li>
+                            <li><strong>Tujuan Penggunaan:</strong> Anda setuju untuk menggunakan Aplikasi ini hanya untuk tujuan pengelolaan keuangan pribadi yang sah dan tidak melanggar hukum.</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2 class="text-2xl font-bold text-slate-900 dark:text-white mb-4">4. Privasi dan Data</h2>
+                        <p>Kami sangat menghargai privasi Anda. Data keuangan yang Anda masukkan disimpan secara lokal di perangkat Anda. Jika Anda menggunakan fitur <em>Cloud Sync</em>, data akan dienkripsi dan disinkronkan ke server yang aman demi tujuan pencadangan (backup). Kebijakan selengkapnya mengenai pengelolaan data diatur dalam dokumen <a href="../privacy-policy/" class="text-app-blue hover:underline">Kebijakan Privasi</a> kami.</p>
+                    </section>
+
+                    <section>
+                        <h2 class="text-2xl font-bold text-slate-900 dark:text-white mb-4">5. Penafian Keuangan (Disclaimer)</h2>
+                        <p>Aplikasi Extra adalah alat bantu visualisasi dan pencatatan. Kami <strong>bukanlah</strong> penasihat keuangan, broker, atau institusi perbankan. Segala grafik, analisis surplus/defisit, dan tren pertumbuhan yang ditampilkan di Aplikasi hanya bertujuan sebagai informasi. FanTech tidak bertanggung jawab atas kerugian finansial, keputusan investasi yang buruk, atau kesalahan perhitungan yang diakibatkan oleh penggunaan Aplikasi ini.</p>
+                    </section>
+
+                    <section>
+                        <h2 class="text-2xl font-bold text-slate-900 dark:text-white mb-4">6. Hak Kekayaan Intelektual</h2>
+                        <p>Seluruh desain antarmuka, kode sumber, logo, grafis, dan aset perangkat lunak yang terdapat di dalam Extra adalah hak milik eksklusif FanTech. Anda tidak diperkenankan untuk menyalin, memodifikasi, mendistribusikan, atau melakukan rekayasa balik (<em>reverse engineering</em>) terhadap Aplikasi ini tanpa izin tertulis dari kami.</p>
+                    </section>
+
+                    <section>
+                        <h2 class="text-2xl font-bold text-slate-900 dark:text-white mb-4">7. Pembaruan dan Modifikasi</h2>
+                        <p>FanTech berhak untuk memodifikasi, memperbarui, atau menghentikan (sementara atau permanen) fitur tertentu di dalam Aplikasi kapan saja. Kami juga berhak mengubah Syarat dan Ketentuan ini. Perubahan akan berlaku segera setelah Syarat yang diperbarui dipublikasikan.</p>
+                    </section>
+
+                    <section>
+                        <h2 class="text-2xl font-bold text-slate-900 dark:text-white mb-4">8. Kontak Kami</h2>
+                        <p>Jika Anda memiliki pertanyaan atau masukan terkait Syarat dan Ketentuan ini, atau membutuhkan bantuan teknis, silakan hubungi tim FanTech melalui:</p>
+                        <p class="mt-2 font-medium">Email: <a href="mailto:fanblog.contact@gmail.com" class="text-app-blue hover:underline">fanblog.contact@gmail.com</a></p>
+                    </section>
+
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer class="bg-white dark:bg-[#050505] text-slate-500 py-10 border-t border-slate-200 dark:border-slate-900 transition-colors duration-300">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="flex items-center gap-2">
+                <div class="font-extrabold text-lg text-slate-900 dark:text-white">Extra<span class="text-app-blue">.</span></div>
+                <span class="text-sm opacity-60">© 2026 FanTech Software. All rights reserved.</span>
+            </div>
+            
+            <div class="flex flex-wrap justify-center gap-6 text-sm font-medium">
+                <a href="../privacy-policy/" class="hover:text-app-blue transition">Kebijakan Privasi</a>
+                <a href="../terms-conditions/" class="hover:text-app-blue transition">Syarat & Ketentuan</a>
+                <a href="../disclaimer/" class="hover:text-app-blue transition">Penyangkalan</a>
+            </div>
+        </div>
+    </footer>
 
     <script src="../assets/script.js"></script>
+    
+    <script>
+        setTimeout(() => {
+            document.querySelectorAll('.fade-in, .fade-in-up').forEach(el => {
+                el.style.opacity = '1';
+                el.style.transform = 'translateY(0)';
+            });
+        }, 500);
+    </script>
 </body>
 </html>

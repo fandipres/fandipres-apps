@@ -1,81 +1,135 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="id" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kebijakan Privasi - FanTech</title>
+    <meta name="description" content="Kebijakan Privasi penggunaan aplikasi Extra oleh FanTech. Menjelaskan bagaimana kami melindungi data finansial Anda.">
+    <meta name="author" content="FanTech">
+    <title>Kebijakan Privasi - Extra App</title>
     
-    <meta name="title" content="Kebijakan Privasi - FanTech">
-    <meta name="description" content="Kebijakan privasi resmi untuk seluruh aplikasi dan layanan web buatan Fandi Presly Simamora (fantech).">
-    <meta name="keywords" content="kebijakan privasi, privacy policy, fandipres, fantech, aplikasi android, developer">
-    <meta name="author" content="Fandi Presly Simamora">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://apps.fandipres.my.id/privacy-policy.html">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%232563EB%22></rect><text x=%2250%%22 y=%2250%%22 font-family=%22Arial, sans-serif%22 font-size=%2260%22 font-weight=%22bold%22 fill=%22white%22 dominant-baseline=%22central%22 text-anchor=%22middle%22>X</text></svg>">
     
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://apps.fandipres.my.id/privacy-policy.html">
-    <meta property="og:title" content="Kebijakan Privasi - FanTech">
-    <meta property="og:description" content="Kebijakan privasi resmi untuk seluruh aplikasi dan layanan web buatan Fandi Presly Simamora (fantech).">
-    <meta property="og:image" content="https://github.com/fandipres.png">
-
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://apps.fandipres.my.id/privacy-policy.html">
-    <meta property="twitter:title" content="Kebijakan Privasi - FanTech">
-    <meta property="twitter:description" content="Kebijakan privasi resmi untuk seluruh aplikasi dan layanan web buatan Fandi Presly Simamora (fantech).">
-    <meta property="twitter:image" content="https://github.com/fandipres.png">
-
-    <link rel="icon" type="image/png" href="https://github.com/fandipres.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        'app-blue': '#2563EB',
+                        'app-black': '#09090B', 
+                        'app-bg-light': '#FAFAFA', 
+                        'app-bg-dark': '#09090B',
+                        'app-card-dark': '#18181B',
+                    },
+                    fontFamily: { sans: ['Inter', 'sans-serif'] },
+                }
+            }
+        }
+    </script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../assets/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <noscript>
+        <style>.fade-in, .fade-in-up { opacity: 1 !important; transform: none !important; }</style>
+    </noscript>
 </head>
-<body>
+<body class="bg-app-bg-light text-slate-800 dark:bg-app-bg-dark dark:text-slate-200 antialiased transition-colors duration-300">
 
-    <div class="top-actions" style="left: 20px; right: auto;">
-        <a href="/" class="action-btn saas-panel" aria-label="Kembali ke Beranda" style="width: auto; padding: 0 16px; text-decoration: none; font-weight: 600;">
-            &larr; Beranda
-        </a>
-    </div>
-    <div class="top-actions">
-        <button id="theme-toggle" class="action-btn saas-panel" aria-label="Toggle Theme">🌙</button>
-    </div>
-
-    <div class="app-container" style="max-width: 800px; padding-top: 80px;">
-        <main class="saas-panel legal-content">
-            <h1>Kebijakan Privasi</h1>
-            <p class="last-updated">Terakhir diperbarui: 24 Maret 2026</p>
+    <nav class="sticky top-0 z-50 bg-white/80 dark:bg-app-bg-dark/80 backdrop-blur-md border-b border-slate-200/50 dark:border-slate-800/50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="../" class="text-2xl font-extrabold tracking-tight text-slate-900 dark:text-white flex items-center gap-2 hover:opacity-80 transition">
+                Extra<span class="text-app-blue">.</span>
+            </a>
             
-            <p>Kami menghormati privasi Anda. Kebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan melindungi informasi Anda saat menggunakan seluruh aplikasi dan layanan web kami.</p>
-
-            <h2>1. Informasi yang Kami Kumpulkan</h2>
-            <p>Kami mungkin mengumpulkan informasi non-pribadi seperti jenis perangkat, versi sistem operasi, dan data penggunaan anonim untuk membantu kami meningkatkan kualitas aplikasi. Kami tidak mengumpulkan data pribadi yang dapat diidentifikasi secara langsung kecuali Anda secara sukarela memberikannya kepada kami (misalnya, melalui email dukungan).</p>
-
-            <h2>2. Layanan Pihak Ketiga</h2>
-            <p>Aplikasi kami mungkin menggunakan layanan pihak ketiga yang dapat mengumpulkan informasi yang digunakan untuk mengidentifikasi Anda. Tautan ke kebijakan privasi penyedia layanan pihak ketiga yang digunakan oleh aplikasi:</p>
-            <ul>
-                <li>Layanan Google Play</li>
-                <li>Google AdMob</li>
-                <li>Firebase Analytics</li>
-            </ul>
-
-            <h2>3. Keamanan Data</h2>
-            <p>Kami menghargai kepercayaan Anda dalam memberikan informasi kepada kami, oleh karena itu kami berusaha untuk menggunakan cara yang dapat diterima secara komersial untuk melindunginya. Namun, ingatlah bahwa tidak ada metode transmisi melalui internet yang 100% aman.</p>
-
-            <h2>4. Perubahan Kebijakan Ini</h2>
-            <p>Kami dapat memperbarui Kebijakan Privasi kami dari waktu ke waktu. Segala perubahan akan langsung diposting di halaman ini dan berlaku seketika.</p>
-        </main>
-
-        <footer class="app-footer">
-            <div class="footer-legal-links">
-                <a href="/privacy-policy/" id="text-privacy">Kebijakan Privasi</a>
-                <a href="/terms-conditions/" id="text-terms">Syarat & Ketentuan</a>
-                <a href="/disclaimer/" id="text-disclaimer">Penyangkalan</a>
+            <div class="flex items-center space-x-4">
+                <a href="../" class="hidden sm:block text-sm font-semibold text-slate-500 hover:text-app-blue dark:text-slate-400 dark:hover:text-blue-400 transition">
+                    &larr; Kembali ke Beranda
+                </a>
+                <button id="themeToggle" class="p-2 rounded-full hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-500 dark:text-slate-400 transition" aria-label="Toggle Dark Mode">
+                    <svg id="themeIcon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path></svg>
+                </button>
             </div>
-            <p class="copyright-text">Copyright &copy; <span id="copyright-year"></span> - Fandi Presly Simamora</p>
-        </footer>
-    </div>
+        </div>
+    </nav>
+
+    <header class="pt-16 pb-10 bg-white dark:bg-[#050505] border-b border-slate-200 dark:border-slate-800/50">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <span class="text-app-blue dark:text-blue-500 font-semibold tracking-wider text-sm uppercase mb-2 block">Pembaruan Terakhir: Maret 2026</span>
+            <h1 class="text-3xl md:text-5xl font-extrabold tracking-tight text-slate-900 dark:text-white mb-4">Kebijakan Privasi</h1>
+            <p class="text-lg text-slate-600 dark:text-slate-400">Komitmen FanTech dalam menjaga keamanan dan kerahasiaan data finansial Anda.</p>
+        </div>
+    </header>
+
+    <main class="py-12 pb-24">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <article class="prose prose-slate dark:prose-invert max-w-none">
+                <div class="bg-white dark:bg-app-card-dark p-8 md:p-12 rounded-3xl border border-slate-100 dark:border-slate-800 shadow-sm space-y-8 text-slate-700 dark:text-slate-300 leading-relaxed">
+                    
+                    <section>
+                        <h2 class="text-2xl font-bold text-slate-900 dark:text-white mb-4">1. Pendahuluan</h2>
+                        <p>FanTech ("Kami") sangat menghargai privasi Anda. Dokumen ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan melindungi informasi Anda saat menggunakan aplikasi Extra ("Aplikasi"). Prinsip utama kami adalah: data finansial Anda adalah milik Anda sepenuhnya.</p>
+                    </section>
+
+                    <section>
+                        <h2 class="text-2xl font-bold text-slate-900 dark:text-white mb-4">2. Informasi yang Kami Kumpulkan</h2>
+                        <ul class="list-disc pl-5 space-y-2">
+                            <li><strong>Data Finansial Input Manual:</strong> Saldo dompet, rekening, dan catatan aktivitas yang Anda ketikkan sendiri ke dalam Aplikasi.</li>
+                            <li><strong>Informasi Akun (Opsional):</strong> Jika Anda mengaktifkan fitur <em>Cloud Sync</em>, kami akan menyimpan alamat email yang tertaut untuk keperluan autentikasi dan pencadangan (backup).</li>
+                            <li><strong>Data Analitik Penggunaan:</strong> Laporan kerusakan (crash reports) anonim untuk membantu kami memperbaiki bug dan meningkatkan performa Aplikasi. Data ini tidak terkait dengan identitas pribadi atau nominal keuangan Anda.</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2 class="text-2xl font-bold text-slate-900 dark:text-white mb-4">3. Penyimpanan dan Keamanan Data</h2>
+                        <p>Secara *default*, seluruh data finansial Anda disimpan secara <strong>lokal</strong> di dalam memori perangkat Anda. FanTech tidak memiliki akses ke data lokal tersebut.</p>
+                        <p>Apabila Anda mengaktifkan sinkronisasi awan (<em>Cloud Sync</em>), data Anda akan dienkripsi secara ketat sebelum dikirim dan disimpan di server kami. Kami menggunakan standar keamanan industri untuk melindungi server dari akses yang tidak sah.</p>
+                    </section>
+
+                    <section>
+                        <h2 class="text-2xl font-bold text-slate-900 dark:text-white mb-4">4. Penggunaan Data</h2>
+                        <p>Data yang dicadangkan di server kami murni digunakan untuk memastikan Anda tidak kehilangan data saat berganti perangkat atau melakukan instalasi ulang. <strong>Kami tidak pernah membaca, menganalisis, membagikan, menyewakan, atau menjual data finansial Anda kepada pihak ketiga mana pun (termasuk pengiklan atau institusi keuangan).</strong></p>
+                    </section>
+
+                    <section>
+                        <h2 class="text-2xl font-bold text-slate-900 dark:text-white mb-4">5. Hak Kontrol Anda</h2>
+                        <p>Anda memiliki kendali penuh atas data Anda. Melalui menu Profil di dalam Aplikasi, Anda dapat mengekspor seluruh data Anda atau meminta penghapusan permanen akun beserta seluruh data cadangan yang ada di server kami kapan saja.</p>
+                    </section>
+
+                    <section>
+                        <h2 class="text-2xl font-bold text-slate-900 dark:text-white mb-4">6. Hubungi Kami</h2>
+                        <p>Jika Anda memiliki kekhawatiran terkait privasi data, silakan hubungi tim keamanan kami melalui:</p>
+                        <p class="mt-2 font-medium">Email: <a href="mailto:fanblog.contact@gmail.com" class="text-app-blue hover:underline">fanblog.contact@gmail.com</a></p>
+                    </section>
+
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer class="bg-white dark:bg-[#050505] text-slate-500 py-10 border-t border-slate-200 dark:border-slate-900 transition-colors duration-300">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="flex items-center gap-2">
+                <div class="font-extrabold text-lg text-slate-900 dark:text-white">Extra<span class="text-app-blue">.</span></div>
+                <span class="text-sm opacity-60">© 2026 FanTech Software. All rights reserved.</span>
+            </div>
+            
+            <div class="flex flex-wrap justify-center gap-6 text-sm font-medium">
+                <a href="../privacy-policy/" class="hover:text-app-blue text-app-blue dark:text-blue-400 transition">Kebijakan Privasi</a>
+                <a href="../terms-conditions/" class="hover:text-app-blue transition">Syarat & Ketentuan</a>
+                <a href="../disclaimer/" class="hover:text-app-blue transition">Penyangkalan</a>
+            </div>
+        </div>
+    </footer>
 
     <script src="../assets/script.js"></script>
+    <script>
+        setTimeout(() => {
+            document.querySelectorAll('.fade-in, .fade-in-up').forEach(el => {
+                el.style.opacity = '1'; el.style.transform = 'translateY(0)';
+            });
+        }, 500);
+    </script>
 </body>
 </html>
