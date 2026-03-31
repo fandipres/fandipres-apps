@@ -1,1 +1,1 @@
-Extra: Effortless Financial Tracking. A secure, offline expense tracker to monitor your cash flow, multiple wallets, and asset growth.
+Extra: Expense Tracker. Financial Tracking, Without the Hassle.
